@@ -1,0 +1,11 @@
+<button id="save">Save</button>
+
+<script>
+const button = document.querySelector("#save");
+if (button === null) {
+    console.log("Error: Save button was not found.");
+} else {
+    button.textContent = "Ready";
+    console.log("Button updated:", button.textContent);
+}
+</script>
